@@ -65,11 +65,13 @@ a:hover {
 .hero-button:hover {
   background: var(--secondary-color);
   color: white;
+  box-shadow: 2px 2px 2px grey;
 }
 
 .project-wrapper {
   text-align: center;
   background: var(--primary-color);
+  box-shadow: 10px 10px 10px grey;
   padding: 25px 0;
   border-radius: 4px;
   max-width: 90%;
@@ -138,6 +140,7 @@ a:hover {
   background: var(--secondary-color);
   padding: 5px 30px;
   margin-top: 25px;
+  box-shadow: 2px 2px 2px grey;
 }
 
 .contact-button:hover {
