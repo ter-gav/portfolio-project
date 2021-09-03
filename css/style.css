@@ -1,8 +1,19 @@
-body {
-  background-color: azure;
+:root {
+  --default-font-family: "Titillium Web", sans-serif;
+  --header-font-family: "Bree Serif", serif;
+  --primary-color: #e4d8dc;
 }
 
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
+body {
+  font-family: var(--default-font-family);
+  background: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-font-family);
 }
