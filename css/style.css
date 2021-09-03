@@ -69,12 +69,22 @@ a:hover {
   box-shadow: 2px 2px 2px grey;
 }
 
+.about-content {
+  text-align: center;
+  padding: 100px 0;
+}
 .about-content h1 {
   font-size: 40px;
+  text-align: left;
 }
 
 .about-content h2 {
   font-size: 25px;
+  text-align: left;
+}
+
+.about-content p {
+  text-align: left;
 }
 
 .project-wrapper {
@@ -92,8 +102,8 @@ a:hover {
   box-shadow: 10px 10px 10px grey;
 }
 
-.about-img img {
-  text-align: right;
+.about-img {
+  max-width: 80%;
 }
 
 @media (max-width: 900px) {
@@ -166,9 +176,4 @@ a:hover {
 
 #footer {
   text-align: center;
-}
-
-.about-content {
-  padding: 0;
-  margin: auto;
 }
