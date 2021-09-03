@@ -40,6 +40,15 @@ footer {
   padding: 50px 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: unset;
+}
+
 .hero {
   text-align: center;
   padding: 100px 0;
@@ -67,11 +76,6 @@ footer {
   margin: 0 auto;
 }
 
-.project-wrapper a {
-  text-decoration: none;
-  color: black;
-}
-
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
@@ -96,17 +100,50 @@ footer {
     max-width: 100%;
     margin: 10px auto;
   }
+
+  .contact-button {
+    padding: 5px 10px;
+    margin-top: 0;
+  }
+
+  .work-inquiry {
+    padding: 0px;
+    text-align: center;
+    max-width: 50%;
+    margin: 20px 40px;
+  }
+
+  .social-media {
+    margin-top: 20px;
+  }
+}
+
+#recent-projects h3 {
+  text-align: center;
 }
 
 .social-icons i {
   padding: 0 10px;
 }
 
-.social-icons a {
-  color: black;
+.work-inquiry {
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  text-align: center;
+  max-width: 80%;
 }
 
-.work-inquiry {
-  border: 1px solid black;
-  padding: 20px;
+.contact-button {
+  border: 1px solid var(--border-color);
+  background: var(--secondary-color);
+  padding: 5px 30px;
+  margin-top: 25px;
+}
+
+.contact-button:hover {
+  color: white;
+}
+
+#footer {
+  text-align: center;
 }
