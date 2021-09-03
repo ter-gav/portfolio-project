@@ -1,12 +1,13 @@
 :root {
   --default-font-family: "Titillium Web", sans-serif;
   --header-font-family: "Bree Serif", serif;
-  --primary-color: #e4d8dc;
+  --primary-color: #eadbe0;
+  --secondary-color: #d6afbc;
+  --border-color: #6d555d;
 }
 
 body {
   font-family: var(--default-font-family);
-  background: var(--primary-color);
 }
 
 h1,
@@ -16,4 +17,34 @@ h4,
 h5,
 h6 {
   font-family: var(--header-font-family);
+}
+
+h1 {
+  font-size: 85px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background: var(--primary-color);
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.hero-button {
+  border: 1px solid var(--border-color);
+  background: transparent;
+}
+
+.hero-button:hover {
+  background: var(--secondary-color);
+  color: white;
 }
