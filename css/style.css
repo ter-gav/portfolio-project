@@ -27,6 +27,10 @@ h2 {
   font-size: 50px;
 }
 
+h3 {
+  font-size: 35px;
+}
+
 p {
   font-size: 20px;
 }
@@ -49,5 +53,42 @@ p {
   color: white;
 }
 
-.recent-projects {
+.project-wrapper {
+  text-align: center;
+  background: var(--primary-color);
+  padding: 25px 0;
+  border-radius: 4px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.project-wrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .hero {
+    padding: 40px 0;
+    background: var(--primary-color);
+    font-weight: bold;
+  }
+  .project-wrapper {
+    padding: 20px 0;
+    border-radius: 4px;
+    max-width: 100%;
+    margin: 10px auto;
+  }
 }
