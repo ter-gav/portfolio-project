@@ -35,6 +35,11 @@ p {
   font-size: 20px;
 }
 
+footer {
+  background: #f3f1f1;
+  padding: 50px 0;
+}
+
 .hero {
   text-align: center;
   padding: 100px 0;
@@ -91,4 +96,17 @@ p {
     max-width: 100%;
     margin: 10px auto;
   }
+}
+
+.social-icons i {
+  padding: 0 10px;
+}
+
+.social-icons a {
+  color: black;
+}
+
+.work-inquiry {
+  border: 1px solid black;
+  padding: 20px;
 }
