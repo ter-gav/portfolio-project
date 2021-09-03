@@ -60,6 +60,7 @@ a:hover {
 .hero-button {
   border: 1px solid var(--border-color);
   background: transparent;
+  font-weight: bolder;
 }
 
 .hero-button:hover {
@@ -68,14 +69,31 @@ a:hover {
   box-shadow: 2px 2px 2px grey;
 }
 
+.about-content h1 {
+  font-size: 40px;
+}
+
+.about-content h2 {
+  font-size: 25px;
+}
+
 .project-wrapper {
   text-align: center;
   background: var(--primary-color);
-  box-shadow: 10px 10px 10px grey;
+  box-shadow: 5px 5px 5px rgb(212, 210, 210);
   padding: 25px 0;
   border-radius: 4px;
   max-width: 90%;
   margin: 0 auto;
+  transition: all 200ms ease-in-out;
+}
+
+.project-wrapper:hover {
+  box-shadow: 10px 10px 10px grey;
+}
+
+.about-img img {
+  text-align: right;
 }
 
 @media (max-width: 900px) {
@@ -102,7 +120,6 @@ a:hover {
     max-width: 100%;
     margin: 10px auto;
   }
-
   .contact-button {
     padding: 5px 10px;
     margin-top: 0;
@@ -149,4 +166,9 @@ a:hover {
 
 #footer {
   text-align: center;
+}
+
+.about-content {
+  padding: 0;
+  margin: auto;
 }
