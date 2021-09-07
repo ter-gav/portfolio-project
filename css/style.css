@@ -70,7 +70,6 @@ a:hover {
 }
 
 .about-content {
-  text-align: center;
   padding: 100px 0;
 }
 .about-content h1 {
@@ -104,6 +103,7 @@ a:hover {
 
 .about-img {
   max-width: 80%;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
