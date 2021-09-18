@@ -149,6 +149,11 @@ a:hover {
     text-align: center;
   }
 
+  .about-content a {
+    display: block;
+    margin: 0 auto;
+  }
+
   .about-img {
     max-width: 100%;
     margin-top: 30px;
