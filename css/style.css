@@ -254,6 +254,11 @@ a:hover {
   max-width: 1200px;
 }
 
+#my-work h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
 .contact-page {
   padding: 100px 0;
   text-align: center;
