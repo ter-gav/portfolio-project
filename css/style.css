@@ -192,9 +192,11 @@ a:hover {
 
 .copyright {
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 20px;
   background: #f3f1f1;
+}
+#repository-link {
+  color: var(--border-color);
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
