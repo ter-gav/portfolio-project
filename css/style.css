@@ -216,8 +216,9 @@ a:hover {
   text-align: center;
 }
 
-.social-icons i {
+.social-icons a {
   padding: 0 10px;
+  font-size: 25px;
 }
 
 .work-inquiry {
