@@ -66,6 +66,7 @@ a:hover {
 .hero-button:hover {
   background: var(--secondary-color);
   color: white;
+  border: none;
   box-shadow: 2px 2px 2px grey;
 }
 
@@ -198,4 +199,12 @@ a:hover {
 
 #footer {
   text-align: center;
+}
+
+#work-header {
+  font-size: 30px;
+}
+
+#my-work {
+  max-width: 1200px;
 }
