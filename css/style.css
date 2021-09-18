@@ -138,6 +138,10 @@ a:hover {
   font-size: 25px;
 }
 
+.social-icons a:hover {
+  color: var(--border-color);
+}
+
 .work-inquiry {
   border: 1px solid var(--border-color);
   padding: 20px;
@@ -188,6 +192,10 @@ a:hover {
 
 .contact-page a {
   font-size: 20px;
+}
+
+.contact-page a:hover {
+  color: var(--border-color);
 }
 
 .copyright {
