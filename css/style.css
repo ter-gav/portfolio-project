@@ -135,7 +135,8 @@ a:hover {
   .about-content {
     padding: 0;
   }
-  .about-content h1 {
+  .about-content h1,
+  .contact-page h1 {
     font-size: 35px;
     text-align: center;
   }
@@ -183,10 +184,6 @@ a:hover {
   #my-work a {
     display: block;
     margin: 0 auto;
-  }
-
-  .contact-page h1 {
-    font-size: 35px;
   }
 }
 
@@ -236,4 +233,8 @@ a:hover {
 
 .contact-page h1 {
   font-size: 50px;
+}
+
+.contact-page a {
+  font-size: 20px;
 }
