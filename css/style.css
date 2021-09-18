@@ -168,6 +168,17 @@ a:hover {
   .social-media {
     margin-top: 20px;
   }
+  #work-header {
+    font-size: 20px;
+  }
+  #my-work img {
+    display: none;
+  }
+
+  #my-work a {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 #recent-projects h3 {
