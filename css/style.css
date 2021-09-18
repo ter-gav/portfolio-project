@@ -49,6 +49,23 @@ a:hover {
   color: unset;
 }
 
+.navigation {
+  font-family: var(--header-font-family);
+  max-width: 990px;
+}
+
+.nav-menu {
+  padding-left: 500px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--border-color);
+}
+
 .hero {
   text-align: center;
   padding: 100px 0;
@@ -120,6 +137,9 @@ a:hover {
     font-size: 25px;
   }
 
+  .nav-menu {
+    padding-left: 0;
+  }
   .hero {
     padding: 40px 0;
     background: var(--primary-color);
