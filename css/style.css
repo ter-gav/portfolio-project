@@ -2,7 +2,7 @@
   --default-font-family: "Titillium Web", sans-serif;
   --header-font-family: "Bree Serif", serif;
   --primary-color: #eadbe0;
-  --secondary-color: #d6afbc;
+  --secondary-color: hwb(340 71% 18%);
   --border-color: #6d555d;
 }
 
