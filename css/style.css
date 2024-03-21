@@ -124,9 +124,10 @@ a:hover {
   box-shadow: 10px 10px 10px grey;
 }
 
-.about-img {
+.about-img img {
   max-width: 80%;
   text-align: center;
+  border-radius: 20px;
 }
 
 #recent-projects h3 {
@@ -291,5 +292,11 @@ a:hover {
   #my-work a {
     display: block;
     margin: 0 auto;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
   }
 }
